@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="container-main">
+      <div class="container-box-main">
+        <img src="assets/Vector.svg" alt="logo-Alura-decoder" />
+
+        <div class="div-textarea">
+          <textarea class="textarea" placeholder="Digite seu texto"></textarea>
+
+          <div class="size textarea">
+            <div class="warning-message">
+              <img class="icon" src="assets/frame.svg" alt="warning" /><span
+                >Apenas letras minúsculas e sem acento.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button id="btnEncrypt" class="btn dark">Criptografar</button>
+          <button id="btnDecrypt" class="btn light">Descriptografar</button>
+        </div>
+      </div>
+
+      <div class="container-box-second">
+        <div class="encrypted-text">
+          <textarea class="textarea2"></textarea>
+          <button id="btnCopy" class="btn light">Copiar</button>
+        </div>
+        <div class="no-content">
+          <img src="assets/girl.svg" alt="woman" />
+          <h2>Nenhuma mensagem encontrada</h2>
+          <p>
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
